@@ -14,11 +14,7 @@ AZURE_OPENAI_MODEL_DEPLOYMENT_NAME=os.environ["AZURE_OPENAI_MODEL_DEPLOYMENT_NAM
 AZURE_OPENAI_API_VERSION="2024-02-01"
 
 # LLM client
-llm_client = AzureOpenAI(
-  azure_endpoint = AZURE_OPENAI_ENDPOINT, 
-  api_key = AZURE_OPENAI_API_KEY,  
-  api_version = AZURE_OPENAI_API_VERSION
-)
+llm_client = AzureOpenAI(azure_endpoint = AZURE_OPENAI_ENDPOINT, api_key = AZURE_OPENAI_API_KEY,  api_version = AZURE_OPENAI_API_VERSION)
 
 # Sample input prompt
 input_prompt = f"""The description for this product should be fairly short, a few sentences only, and not too much more."""
