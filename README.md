@@ -7,7 +7,7 @@ This repository contains the `prompt_scorer` module, a Python-based module for s
 
 The `example.py` script uses this module
 
-`
+```
 # LLM client
 llm_client = AzureOpenAI(
   azure_endpoint = AZURE_OPENAI_ENDPOINT, 
@@ -20,4 +20,4 @@ input_prompt = f"""The description for this product should be fairly short, a fe
 
 # Score the prompt calling the scoring function
 prompt_scorer.score_prompt(input_prompt, llm_client, AZURE_OPENAI_MODEL_DEPLOYMENT_NAME)
-`
+```
