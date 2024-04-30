@@ -8,6 +8,8 @@ This repository contains the `prompt_scorer` module, a Python-based module for s
 The `example.py` script uses this module
 
 ```
+import prompt_scorer
+
 # LLM client
 llm_client = AzureOpenAI(azure_endpoint = AZURE_OPENAI_ENDPOINT, api_key = AZURE_OPENAI_API_KEY,  api_version = AZURE_OPENAI_API_VERSION)
 
