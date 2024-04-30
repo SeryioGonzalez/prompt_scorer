@@ -23,8 +23,8 @@ def score_prompt(input_prompt, llm_client, model, rule_file='rules.txt', tempera
    You are an AI expert in prompt engineering best practices. 
    Your task is to help optimize input prompts presented to you following certain rules later described.
    ########### RULES ###########
-   ########### END OF RULES ###########
    {evaluation_rules}
+   ########### END OF RULES ###########
    ########### EVALUATION PROCESS ###########
    You will evaluate an input prompt across the following steps provided and assess the quality of the input prompt based on the specific guidelines
 
