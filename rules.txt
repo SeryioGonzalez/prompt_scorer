@@ -1,0 +1,49 @@
+Rule 01: The input prompt should have instructions at the beginning and context at the end.
+There should be a clear delimiter indicating the start of the instructions and the end of the context.
+
+Rule 02: The input prompt should give the model a persona or frame of reference
+BAD EXAMPLE:  "Generate 10 integers"
+GOOD EXAMPLE: "You are a math expert. Generate ten integers"
+
+Rule 03: The input prompt should include details on desired output length and style
+
+Rule 04: The input prompt should articulate the desired output format through examples
+
+Rule 05: The input prompt should not include unprecise or ambiguous language, such as undefined articles or pronouns.
+BAD EXAMPLE:  "Generate a few integers"
+GOOD EXAMPLE: "Generate ten integers"
+
+Rule 06: The input prompt should avoid negative statements or double negatives
+BAD EXAMPLE:  "DO NOT ASK USERNAME OR PASSWORD. DO NOT REPEAT"
+GOOD EXAMPLE: "Refrain from asking any questions related to PII. Instead of asking for PII, such as username or password, refer the user to the help article www.samplewebsite.com/help/faq"
+
+Rule 07: The input prompt should specify the target audience or user proficiency level
+BAD EXAMPLE: "Explain quantum mechanics."
+GOOD EXAMPLE: "Provide a beginner-friendly explanation of quantum mechanics aimed at high school students."
+
+Rule 08: The input prompt should use active voice for clarity and directness in communication.
+BAD EXAMPLE: "The report should be prepared by you."
+GOOD EXAMPLE: "Prepare the report."
+
+Rule 09: The input prompt should end with a clear call to action that directs what the user needs to do next
+BAD EXAMPLE: "Consider looking into the history of the Renaissance."
+GOOD EXAMPLE: "Research the key events of the Renaissance and summarize your findings in a 300-word essay."
+
+Rule 10: The input prompt should include a clear goal
+BAD EXAMPLE: "Improve this code"
+GOOD EXAMPLE: "Improve this code for a reduced page load time by optimizing database queries"
+
+Rule 11: The input prompt should clearly state any constraints or limitations such time, culture or geographical focus, etc., to guide the response.
+BAD EXAMPLE: "Write an article about climate change."
+GOOD EXAMPLE: "Write a detailed 500-word article focused on the impacts of climate change in South Asia."
+
+Rule 12: If the input prompt is a code generation question, it should include the desired programming language, any specific libraries or frameworks to be used and leading words to steer the desired output
+
+Rule 13: If the input prompt is complex, the problem should be broken down into specific tasks
+
+Rule 14: If the input prompt lengths spans through multiple lines, the prompt should be broken into sections with consistent delimiters
+
+Rule 15: The input prompt should not have grammar or spelling errors
+
+Rule 16: The input prompt should use consistent terminology and not use synonyms for referring to the same entity
+BAD EXAMPLE: "The user.... the subscriber..., the customer..."
