@@ -39,7 +39,7 @@ GOOD EXAMPLE: "Write a detailed 500-word article focused on the impacts of clima
 
 Rule 12: If the input prompt is a code generation question, it should include the desired programming language, any specific libraries or frameworks to be used and leading words to steer the desired output
 
-Rule 13: If the input prompt is complex, the problem should be broken down into specific tasks
+Rule 13: If the input prompt is complex, the problem should be broken down into specific tasks. A complex prompt has more than 50 words.
 
 Rule 14: If the input prompt lengths spans through multiple lines, the prompt should be broken into sections with consistent delimiters
 
